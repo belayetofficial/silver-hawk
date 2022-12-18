@@ -1,0 +1,146 @@
+/* ******************* Index ******************* */ 
+
+
+@media screen and (max-width: 990px) {
+.nav-links ul li a{
+    padding: 20px;
+}
+.about-section .about-parents {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 860px) {
+    .nav-links ul li a{
+        padding: 10px;
+    
+    }
+    .banner-section .banner-parents .banner-btn .color-btn {
+        font-size: 10px;
+        padding: 15px;
+    }    
+
+    .banner-section .banner-parents .heading-banner h1 {
+        font-size: 40px;        
+    }
+    .logo {
+        width: 140px;
+    }
+    .topbar-section .topbar-parents {
+        justify-content: center;
+    }
+    .topbar-section .topbar-parents .topbar-one, .topbar-section .topbar-parents .topbar-two {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 668px) {
+    .nav-links ul li a {
+        padding: 5px;
+    }
+    .responsive-nav-link {
+        display: block;
+      }
+    .nav-links {
+      display: none;
+      }
+      
+.banner-section .banner-parents .banner-content {
+        width: 100%;
+}
+}
+
+@media screen and (max-width: 618px) {
+    .nav-links ul li a {
+        padding: 3px;
+        font-size: 15px;
+    }
+    .what-section .what-parents .what-two {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 596px) {
+    .topbar-section .topbar-parents {
+        display: grid;
+        flex-direction: column;
+    }
+    .topbar-section .topbar-parents .topbar-two ul {
+        justify-content: center;
+    }
+    .logo {
+        width: 60px;
+    }
+    .nav-links ul li a {
+        padding: 1px;
+    }
+    .banner-section .banner-parents .heading-banner h1 {
+        font-size: 30px;
+    }
+    .gallery-section .gallery-parents .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .about-hover {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 330px) {
+    .responsive-nav-link ul li {
+        padding: 5px;
+    }
+}
+
+
+    
+
+/* ******************* Survic ******************* */
+@media screen and (max-width:600px) {
+    .get-started .get-started-parents .p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .services-content-section .services-content-parents  {
+        padding: 0 0 35px 0;
+    }
+    .footer-section .footer-parents .footer .footer-logo {
+        padding: 25px;
+    }
+}
+@media screen and (max-width:575px) {
+    .get-started .get-started-parents .p {
+        font-size: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 435px) {
+    h2 {
+        font-size: 20px;
+    }
+    .services-section .services-parents h2 {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .services-section .services-parents p {
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:372px) {
+    .get-started .get-started-parents .p {
+        font-size: 10px;
+    }
+    .services-content-section .services-content-parents {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width:340px){
+    .services-section .services-parents p {
+        font-size: 5px;
+    }
+}
